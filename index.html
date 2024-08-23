@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawazon - Site Gamer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+        }
+
+        nav a span {
+            margin-right: 8px;
+            font-size: 24px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('fundo.jpg') no-repeat center center/cover;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #ff6600;
+            border: none;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .games, .news, .community {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .game, .news-item, .community-item {
+            background-color: #1f1f1f;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 300px;
+            box-sizing: border-box;
+        }
+
+        .game img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 20px;
+            }
+
+            nav a {
+                font-size: 16px;
+            }
+
+            .games, .news, .community {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero button {
+                width: 100%;
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Pawazon</h1>
+    </header>
+
+    <nav>
+        <a href="#home">
+            <span>🏠</span>
+            Home
+        </a>
+        <a href="#games">
+            <span>🎮</span>
+            Jogos
+        </a>
+        <a href="#news">
+            <span>📰</span>
+            Notícias
+        </a>
+        <a href="#community">
+            <span>👥</span>
+            Comunidade
+        </a>
+        <a href="#about">
+            <span>ℹ️</span>
+            Sobre
+        </a>
+        <a href="#contact">
+            <span>✉️</span>
+            Contato
+        </a>
+    </nav>
+
+    <div class="hero">
+        <h2>Bem-vindo ao Pawazon</h2>
+        <p>Explore os melhores jogos e junte-se à nossa comunidade!</p>
+        <button>Explore Agora</button>
+    </div>
+
+    <section id="games">
+        <h3 class="section-title">Jogos Populares</h3>
+        <div class="games">
+            <div class="game">
+                <h4>Jogo 1</h4>
+                <a href="https://download2393.mediafire.com/g29e0x6bkfzgwi0oCghrRjqMjOrAwV5OwdXBChVwX4wf_zn8YmFnYL8WKIWwGxxjGw6hW1ydDYJe1SmMlLXQ4y0CAbsyCfRalsXQaJL50eClNRycLOfCLFsYN7eaEMh3G5cW6Y8oSNsu_Qab9bLeIw0_EI-hLtzUzEpbydhOTGFQLYLB1A/w6c2cxch26p2gr1/Survivalcraft2.rar" target="_blank">
+                    <img src="https://play-lh.googleusercontent.com/qHOeTdOzb4hvtT0DbSyZauFAr8BhgCY1QyMP6loiJEkZzkHxwi7ZqdWZbdS-__qsOA4" alt="Capa do Jogo 1">
+                </a>
+                <p>Você está abandonado nas margens de um mundo infinito de blocos. Explore, extraia recursos, crie ferramentas e armas, faça armadilhas e cultive plantas. Costure roupas e cace mais de 30 animais do mundo real para obter comida e recursos. Construa um abrigo para sobreviver às noites frias e compartilhe seus mundos online. Monte cavalos, camelos ou burros e reúna gado para protegê-los de predadores. Abra caminho através da rocha com explosivos. Construa dispositivos elétricos complexos. Crie móveis personalizados. Pinte. Use pistões para construir máquinas em movimento. Cultive colheitas e plante árvores. Faça e combine 40 itens de roupas diferentes para se proteger de ataques e clima ou para parecer inteligente. Jogue com até 3 amigos usando a tela dividida. As possibilidades são infinitas nesta série de jogos de sobrevivência e construção sandbox de longa duração.
+
+Aproveite!</p>
+            </div>
+            <div class="game">
+                <h4>Jogo 2</h4>
+                <a href="https://download2393.mediafire.com/46720e3kkkvgiH87uDPj_iP1zDccClCLgAuwzZBnUQtRsH6URm3q462sL46n9ZnX5B9bnTgENypzy3cC02pvKa7XLTw7aAE3WN08TvMx48s21-8YrCB328BlAb5ZH3GkRuPSAuJTk5EkWYOBMM3KWivAaxuZyrbS1CTMvcP5zneat0MQ/7xwthj5b2axwy78/Cuphead+The+Delicious+Last+Course.zip" target="_blank">
+                    <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000016330/d94d2186ef03c930392253c83c84af0c73b7e57cd902a526b09b4155a25930fe" alt="Capa do Jogo 2">
+                </a>
+                <p>Cuphead é um jogo de ação e tiros clássico, com enorme ênfase nas batalhas de chefes. Inspirado nas animações infantis da década de 1930, os visuais e efeitos sonoros foram minuciosamente recriados com as mesmíssimas técnicas dessa era, com destaque para desenhos feitos à mão, fundos em aquarela e gravações originais de jazz.</p>
+            </div>
+            <div class="game">
+                <h4>Jogo 3</h4>
+                <a href="https://tlauncher.org/installer" target="_blank">
+                    <img src="https://fazendoanossafesta.com.br/wp-content/uploads/2021/12/Adesivo-Capa-de-Caderno-Horizontal-Minecraft.jpg" alt="Capa do Jogo 3">
+                </a>
+                <p>Minecraft é um jogo eletrônico sandbox de sobrevivência criado pelo desenvolvedor sueco Markus "Notch" Persson e posteriormente desenvolvido e publicado pela Mojang Studios, cuja propriedade intelectual foi obtida pela Microsoft em 2014.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <h3 class="section-title">Notícias Recentes</h3>
+        <div class="news">
+            <div class="news-item">
+                <h4>RPG!</h4>
+                <p>RPG rewarded ainda está em produção!
+            </div>
+            <div class="news-item">
+                <h4>Oferta!</h4>
+                <p>Oferta! Telcado+mouse a venda!.</p>
+            </div>
+            <div class="news-item">
+                <h4>Segurança</h4>
+                <p>Esse site preza pela anti pirataria!.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="community">
+        <h3 class="section-title">Comunidade</h3>
+        <div class="community">
+            <div class="community-item">
+                <h4>Bolsonaro é um bom presidente?</h4>
+                <p>Um grande discussão está acontecendo sobre isso.</p>
+            </div>
+            <div class="community-item">
+                <h4>Quem ganha em uma luta? Goku ou Saitama?</h4>
+                <p>A maioria crê que Goku vence.</p>
+            </div>
+            <div class="community-item">
+                <h4>Gojo diz frase iconica</h4>
+                <p>Ele diz "Nah, i´d win", uma frase nova e famosa no momento.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pawazon. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
